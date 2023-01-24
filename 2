@@ -1,0 +1,23 @@
+attend=int(input("출석점수:"))
+assign=int(input("과제저수:"))
+exam=int(input("시험점수:"))
+
+sum=attend*0.1+assign*0.3+exam*0.6
+print("총합:", int(sum))
+
+if sum <0 or sum >100:
+    print("에러")
+    
+elif sum>=90:
+    print("A학점")
+
+elif sum >=80:
+    print("B학점")
+
+elif sum >=70:
+    print("C학점")
+
+elif sum >=60:
+    print("D학점")
+
+else: print("E학점")
