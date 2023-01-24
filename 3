@@ -1,0 +1,13 @@
+a=int(input("정수1:"))
+b=int(input("정수2:"))
+c=int(input("정수3:"))
+
+max=a
+
+if max<b and b>c:
+    max=b
+else:
+    if max<c and b<c:
+        max=c
+
+print("최대값:",max)
