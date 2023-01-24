@@ -1,0 +1,13 @@
+a=int(input("정수1:"))
+b=int(input("정수2:"))
+c=int(input("정수3:"))
+
+min=a
+
+if min>b and b<c:
+    min=b
+else:
+    if min>c and b>c:
+        min=c
+
+print("최소값:",min)
